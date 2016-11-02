@@ -1,37 +1,27 @@
 {
-  "name": "wp",
+  "name": "gulp_setup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "start": "npm run build",
-    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
-    "build:prod": "webpack -p && cp src/index.html dist/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangsongiam/webpack.git"
+    "url": "git+https://github.com/wangsongiam/gulp-practice.git"
   },
-  "author": "",
+  "author": "Song Wang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wangsongiam/webpack/issues"
+    "url": "https://github.com/wangsongiam/gulp-practice/issues"
   },
-  "homepage": "https://github.com/wangsongiam/webpack#readme",
-  "dependencies": {
-    "css-loader": "^0.25.0",
-    "node-sass": "^3.10.1",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "sass-loader": "^4.0.2",
-    "style-loader": "^0.13.1"
-  },
+  "homepage": "https://github.com/wangsongiam/gulp-practice#readme",
   "devDependencies": {
-    "babel-loader": "^6.2.7",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.16.0",
-    "babel-preset-stage-2": "^6.18.0",
-    "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2"
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.10"
   }
 }
