@@ -1,2 +1,2 @@
-## Bootstrap
-### powered by wangsong's Gulp Starter Kit
+## Bootstrap practice
+## Powered up by Song's [Gulp Kit](https://github.com/wangsongiam/gulp)
